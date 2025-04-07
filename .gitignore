@@ -1,32 +1,82 @@
-# Prerequisites
-*.d
+###############################################################################
+# Visual Studio and MSBuild Files
+###############################################################################
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Visual Studio 2017/2019 database files
+*.VC.db
+*.VC.VC.opendb
+
+# Build artifacts
 *.obj
-
-# Precompiled Headers
-*.gch
 *.pch
+*.pdb
+*.ipch
+*.aps
+*.res
+*.ilk
+*.log
+*.exp
+*.lib
+*.dll
+*.exe
 
-# Compiled Dynamic libraries
+# Intermediate, generated, and other output folders
+ipch/
+Debug/
+Release/
+out/
+build/
+[Bb]uild/
+
+# Visual Studio cache and temporary files
+*.vspscc
+.vs/
+*.opensdf
+*.sdf
+
+###############################################################################
+# Visual Studio Code
+###############################################################################
+.vscode/
+.history/
+
+###############################################################################
+# Common C++ Patterns
+###############################################################################
+# Object files, static and shared libs, executables
+*.o
+*.a
 *.so
 *.dylib
-*.dll
 
-# Fortran module files
-*.mod
-*.smod
+# Profiler data
+*.gcno
+*.gcda
+*.gcov
+*.gcov.out
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Crash logs, core dumps
+core
 
-# Executables
-*.exe
-*.out
-*.app
+###############################################################################
+# CMake Files
+###############################################################################
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+###############################################################################
+# Other Common or Temporary Files
+###############################################################################
+*.tmp
+*.log
+*.swp
+*~
+.DS_Store
+Thumbs.db
